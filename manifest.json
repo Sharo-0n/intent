@@ -1,16 +1,15 @@
 {
+  "manifest_version": 2,
+
   "name": "Intent",
-  "version": "2.1",
-  "description": "Helps you become a more productive internet user.",
-  "icons": { "128": "icon_128.png" },
-  "background": {
-    "persistent": false,
-    "scripts": ["bg.js"]
-  },
-  "permissions": ["http://*.google.com/", "https://*.google.com/"],
+  "description": "This extension will help you be more mindful of your browsing",
+  "version": "1.0",
+
   "browser_action": {
-    "default_title": "",
-    "default_icon": "icon_19.png",
-    "default_popup": "popup.html"
-  }
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
 }
