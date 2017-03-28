@@ -18,3 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, false);
 }, false);
+// $("#checkPage").on("click", function(){
+//   $(this).css("color", "#f95a61");
+// });
+
+// function theFunction(){
+//   console.log("da eff");
+// }
